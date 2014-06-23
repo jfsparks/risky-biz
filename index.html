@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - Pen</title>
+
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+
+  <form name="RiskAssessment" method="post">
+  <div id="header">
+    <p id="hed"> How risky of an investment are you?</p>
+    <p id="dek">The American Healthcare Reform Act requires insurance companies to keep pre-existing conditions out of the premium cost calculator, but those conditions are one factor that plays into the risk the company takes on when they insure someone. Answer the questions below to find out how risky of an investment you are for a health insurance company. (Source: U.S. Department of Health and Human Services)</p>
+  </div>
+  <div>
+        <p>Which best describes you? (Check one)</p>
+  <div id="age">
+    <input type="radio" name="age" value=".141" /> Male, 21-24<br/>
+        <input type="radio" name="age" value=".15" /> Male, 24-29 <br/>
+    <input type="radio" name="age" value=".187" /> Male, 30-34 <br/>
+    <input type="radio" name="age" value=".24" /> Male, 35-39 <br/>
+    <input type="radio" name="age" value=".293" /> Male, 40-44 <br/>
+    <input type="radio" name="age" value=".365" /> Male, 45-49 <br/>
+    <input type="radio" name="age" value=".484" /> Male, 50-54 <br/>
+    <input type="radio" name="age"
+    value=".58" /> Male, 55-59 <br/>
+    <input type="radio" name="age"
+    value=".704" /> Male, 60+ <br/>
+    <input type="radio" name="age" value=".221" />Female, 21-24 <br/>
+    <input type="radio" name="age" value=".301" />Female, 24-29 <br/>    
+    <input type="radio" name="age" value=".396" />Female, 30-34 <br/>    
+    <input type="radio" name="age" value=".49" />Female, 35-39 <br/>    
+    <input type="radio" name="age" value=".554" />Female, 40-44 <br/>    
+    <input type="radio" name="age" value=".583" />Female, 45-49 <br/>    
+    <input type="radio" name="age" value=".695" />Female, 50-54 <br/>
+    <input type="radio" name="age" value=".726" />Female, 55-59 <br/>
+    <input type="radio" name="age" value=".798" />Female, 60+ <br/>
+  </div>
+  </div>
+  <div>
+  <p>Which of the following have you been treated for in the past 12 months? (Check all that apply)</p>
+  <div id="diseases">
+    <input type="checkbox" name="disease" value=".904" />Asthma <br/>
+    <input type="checkbox" name="disease" value=".974" />Autistic Disorder<br/>
+    <input type="checkbox" name="disease" value="1.12" />Diabetes<br/>
+    <input type="checkbox" name="disease" value="1.12" />Ectopic/Molar Pregnancy or Miscarriage<br/>    <input type="checkbox" name="disease" value="1.152" />Chronic Hepatitis<br/>
+    <input type="checkbox" name="disease" value="1.321" />Seizure Disorders<br/>    <input type="checkbox" name="disease" value="1.601" />Major Depressive or Bipolar Disorders<br/>
+    <input type="checkbox" name="disease" value="1.848" />Parkinson's, Huntington's and other neurodegenerative disorders<br/>  
+    <input type="checkbox" name="disease" value="2.517" />Inflammatory Bowel Disease<br/>    
+    <input type="checkbox" name="disease" value="2.732" />Anorexia/Bulimia Nervosa<br/>
+    <input type="checkbox" name="disease" value="3.009" />Rheumatoid Arthritis<br/>
+    <input type="checkbox" name="disease" value="3.134" />Completed Pregnancy<br/>    <input type="checkbox" name="disease" value="3.389" />Drug Psychosis or Dependence<br/>
+    <input type="checkbox" name="disease" value="3.587" />Congestive Heart Failure<br/>
+    <input type="checkbox" name="disease" value="4.0555" />Other cancers including breast, prostate, kidney, etc.<br/>
+    <input type="checkbox" name="disease" value="4.74" />HIV/AIDS<br/>
+    <input type="checkbox" name="disease" value="7.099" />Anemia (except aplastic anemia)<br/>
+    <input type="checkbox" name="disease" value="9.48" />Hip Fracture<br/>
+    <input type="checkbox" name="disease" value="11.191" />Lung, Brain or other severe cancers<br/>
+    <input type="checkbox" name="disease" value="12.612" />Cardio-Respiratory Failure and Shock<br/>
+    <input type="checkbox" name="disease" value="15.182" />Aplastic Anemia<br/>
+    <input type="checkbox" name="disease" value="24.376" />Metastatic Cancer<br/>
+    <input type="checkbox" name="disease" value="49.321" />Hemophilia<br/>
+    <input type="checkbox" name="disease" value="0" />None of the listed<br />
+  </div>
+  </div>
+  <div>
+  <div>
+    <p>When treated for a condition, did you experience a severe complication or illness? (Examples include seizures, respiratory arrest, cardio-respiratory failure and shock, pulmonary embolisms)</p>
+  <div id="complications">
+    <input type="radio" value="12.427" name="problem" /> Yes<br/>
+    <input type="radio" value="0" name="problem" /> No<br/>
+    <input type="radio" value="0" name="problem" />
+    Not applicable<br/>
+    </div>
+    </div>
+    <div>
+     <textarea rows="5" cols="40" name="total" input id="total" type="text"></textarea>
+      </div>
+    <div>
+      <p id="method"><a href="JavaScript:newPopup('');">Methodology and Privacy statements</a></p>
+
+  <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
