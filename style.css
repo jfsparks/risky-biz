@@ -1,0 +1,80 @@
+p {
+  font-weight:bold;
+  font-family: Gill Sans, Verdana;
+}
+
+#header {
+  background-color: #3D5266;
+  color: #99ccff ;
+  padding: 10px;
+  padding-top: 0px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  
+}
+
+#total {
+  background-color: #3D5266;
+  color: #99ccff ;
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  margin-left: 0px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  font-family: Gill Sans, Verdana;
+  font-size: 12pt;
+  text-align: left;
+  
+  
+}
+
+#age {
+    width: 300px;
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+    font-family: Gill Sans, Verdana;
+    font-size: 11px;
+}
+
+#hed {
+  text-transform: none;
+  font-weight: bold;
+  font-family: Georgia, serif;
+  font-variant: small-caps; 
+  margin-bottom: 0;
+  font-size: 24pt;
+  
+}
+
+#dek {
+  font-weight: normal;
+  }
+
+#diseases {
+    width: 500px;
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+    font-family: Gill Sans, Verdana;
+    font-size: 11px;
+}
+
+#complications {
+    font-family: Gill Sans, Verdana;
+    font-size: 11px;
+}
+
+#method {
+  font-family: Gill Sans, Verdana;
+  font-size: 9px;
+}
